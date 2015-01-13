@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	directoryPtr := flag.String("directory", "pubilc", "directory string to file server")
+	directoryPtr := flag.String("directory", "public", "directory string to file server")
 	flag.Parse()
 	fmt.Println("..simple server started at: ", time.Now())
 	fmt.Printf("..serving the directory: '%s' on port 8080", *directoryPtr)
