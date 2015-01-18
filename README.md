@@ -5,6 +5,7 @@ by Gabe Dalay
 ----------------------
 
 ** To run:
+From terminal: go build
 
 Just grab the executable and place it where you please.
 
